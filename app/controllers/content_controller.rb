@@ -19,7 +19,7 @@ class ContentController < ApplicationController
 	                           auth: @notification_data.auth_key,
 	                           ttl: 24 * 60 * 60,
 	                           vapid: {
-	                               subject: 'mailto:admin@commercialview.com.au',
+	                               subject: 'mailto:pedro.c.shd@gmail.com',
 	                               public_key: $vapid_public,
 	                               private_key: $vapid_private
 	                           }
